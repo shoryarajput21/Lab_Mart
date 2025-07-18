@@ -1,0 +1,65 @@
+.custom-category-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem;
+  background: #f9f9f9;
+}
+
+.custom-card-box {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  flex: 1 1 48%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.custom-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.custom-card-title {
+  color: #ff6c00;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.custom-view-btn {
+  padding: 5px 14px;
+  border: 1px solid #ff6c00;
+  background-color: white;
+  color: #ff6c00;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.custom-view-btn:hover {
+  background-color: #ff6c00;
+  color: white;
+}
+
+.custom-grid-wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.custom-grid-item {
+  text-align: center;
+}
+
+.custom-img {
+  height: 150px;
+  object-fit: contain;
+}
+
+.custom-name {
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}

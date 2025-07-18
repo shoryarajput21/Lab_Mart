@@ -1,0 +1,59 @@
+.fume-hood-section {
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.fume-hood-section h2 {
+  text-align: center;
+  color: #f97316;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.fume-hood-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+}
+
+.fume-card {
+  background: white;
+  padding: 16px;
+  border: 1px solid #eee;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.fume-card h4 {
+  font-size: 15px;
+  margin-bottom: 12px;
+  color: #111;
+  min-height: 3em;
+}
+
+.fume-card img {
+  max-width: 100%;
+  max-height: 160px;
+  object-fit: contain;
+  margin-bottom: 14px;
+}
+
+.catalog-btn {
+  font-weight: 600;
+  font-style: italic;
+  color: #333;
+  border: 2px dashed red;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.catalog-btn:hover {
+  background-color: red;
+  color: white;
+}
